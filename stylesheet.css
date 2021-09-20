@@ -31,7 +31,12 @@ header::after {
     margin-bottom: 2em;
     border-radius: 1.5em;
     text-align: center;
-    border: solid black 3px;
+    border: double black 7px;
+}
+
+.brief-image:hover {
+    transform: scale(1.01);
+    transition: all 250ms ease-in-out;
 }
 
 .brief-title {
@@ -58,6 +63,11 @@ header::after {
     margin: .5em;
     justify-self: left;
     text-align: left;
+}
+
+.brief-container a img {
+    text-decoration: none !important;
+    border: none !important;
 }
 
 .subject-title {
