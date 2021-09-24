@@ -9,7 +9,6 @@ pwsh_img.addEventListener("mouseout", function () {
 })
 
 arduino_img.addEventListener("mouseover", function () {
-    console.log("hello")
     mouseOver(this,"images\\ttt-sample.gif")
 })
 arduino_img.addEventListener("mouseout", function () {
